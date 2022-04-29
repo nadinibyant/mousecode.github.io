@@ -1,0 +1,1433 @@
+html,
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header img {
+    width: 200px;
+    margin-left: 95px;
+}
+
+@font-face {
+    font-family: reguler;
+    src: url('assets/fonts/reguler.ttf');
+}
+
+.header ul li {
+    display: inline-block;
+    padding-right: 80px;
+}
+
+.logo {
+    float: left;
+}
+
+.nav {
+    float: left;
+    margin-left: 230px;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    margin-top: -210px;
+    padding: 20px 0;
+    background-color: #CAC2DB;
+
+}
+
+main {
+    margin-top: 250px;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+
+
+}
+
+.judul {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    color: #816FA8;
+    margin-left: 95px;
+    font-weight: bold;
+}
+
+.sekilas {
+    font-family: 'reguler', sans-serif;
+    font-size: 18px;
+    margin-left: 95px;
+
+}
+
+
+.aside1 hr {
+    width: 530px;
+    margin-left: 100px;
+}
+
+.aside1 {
+    margin-top: -50px;
+}
+
+
+
+.button {
+    background-color: #1B1D58;
+    color: white;
+    width: 110px;
+    height: 40px;
+    margin-left: 95px;
+    border-radius: 10px;
+
+}
+
+.button p {
+    padding: 10px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.button a {
+    text-decoration: none;
+}
+
+.aside1 img {
+    width: 503px;
+    float: right;
+    padding: 0px 122px;
+    margin-top: -30px;
+}
+
+.navbar ul li a:hover {
+    background-color: #1B1D58;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.fitur p {
+    margin-top: 276px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.fitur1 img {
+    width: 160px;
+    margin-left: 95px;
+    margin-top: 106px;
+    float: left;
+}
+
+.fitur1 p {
+    font-family: 'Century Gothic', sans-serif;
+    color: #816FA8;
+    float: left;
+    margin-top: 160px;
+    margin-left: 82px;
+    font-weight: bold;
+}
+
+.fitur2 img {
+    width: 160px;
+    margin-left: 90px;
+    margin-top: 267px;
+    margin-right: 162px;
+    float: right;
+
+}
+
+.fitur2 p {
+    font-family: 'Century Gothic', sans-serif;
+    color: #816FA8;
+    float: right;
+    margin-top: 147px;
+    margin-left: 82px;
+    font-weight: bold;
+}
+
+.fitur3 img {
+    width: 160px;
+    margin-left: -155px;
+    margin-top: 254px;
+    float: left;
+}
+
+.fitur3 p {
+    font-family: 'Century Gothic', sans-serif;
+    color: #816FA8;
+    float: left;
+    margin-top: 150px;
+    margin-left: 82px;
+    font-weight: bold;
+}
+
+.fitur4 img {
+    width: 160px;
+    margin-left: 95px;
+    margin-top: 237px;
+    margin-right: -225px;
+    float: right;
+}
+
+.fitur4 p {
+    font-family: 'Century Gothic', sans-serif;
+    color: #816FA8;
+    float: right;
+    margin-top: 308px;
+    font-weight: bold;
+}
+
+.card1 img {
+    width: 300px;
+    height: 320px;
+    float: left;
+    margin-top: 350px;
+    border-radius: 20px;
+}
+
+.card2 img {
+    width: 300px;
+    height: 320px;
+    float: left;
+    margin-top: 190px;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.card3 img {
+    width: 300px;
+    height: 320px;
+    float: left;
+    margin-top: 140px;
+    border-radius: 20px;
+}
+
+.card4 img {
+    width: 300px;
+    height: 320px;
+    float: left;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+.card5 img {
+    width: 300px;
+    height: 320px;
+    float: left;
+    margin-top: 100px;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.card6 img {
+    width: 300px;
+    height: 320px;
+    float: left;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+.card {
+    margin-left: 260px;
+}
+
+
+.about img {
+    width: 200px;
+    margin-top: 110px;
+    margin-left: 600px;
+}
+
+.about hr {
+    width: 431px;
+    align-items: center;
+}
+
+.about p {
+    text-align: center;
+    padding: 10px 170px;
+    font-style: reguler;
+    font-family: 'reguler', sans-serif;
+}
+
+
+.contact {
+    background-color: #2C2E5C;
+    height: 500px;
+    margin-top: -25px;
+}
+
+.profile img {
+    width: 100px;
+    border-radius: 180px;
+}
+
+.gambar {
+    float: left;
+}
+
+.ket {
+    float: left;
+    margin-left: 60px;
+}
+
+.profile {
+    float: left;
+    border-right: 2px solid white;
+    margin-left: 143px;
+    margin-top: 100px;
+    width: 550px;
+    margin-right: 40px;
+}
+
+.isiconta p {
+    color: white;
+    text-align: center;
+    letter-spacing: 10px;
+    padding-top: 57px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.profile p {
+    letter-spacing: 0px;
+}
+
+
+.svgig {
+    float: left;
+}
+
+.nama {
+    float: left;
+}
+
+.ket h3 {
+    font-family: 'century gothic', sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.ket p {
+    color: #EEF161;
+    font-weight: bold;
+    font-family: 'century gothic', sans-serif;
+}
+
+.nama p {
+    margin-top: -45px;
+    margin-left: 10px;
+    color: white;
+}
+
+.status {
+    margin-top: -70px;
+
+}
+
+.text p {
+    letter-spacing: 0px;
+    font-family: 'century gothic', sans-serif;
+    font-size: 20px;
+    padding: 100px;
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+    font-family: 'century gothic', sans-serif;
+    font-weight: bold;
+}
+
+.slideUp {
+    animation-name: slideUp;
+    animation-name: slideUp;
+    animation-duration: 1s;
+    animation-duration: 1s;
+    visibility: visible;
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 767px) {
+    .header {
+        height: 5%;
+    }
+
+    .header img {
+        width: 100px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .nav {
+        margin-left: 100px;
+        margin-top: -38px;
+    }
+
+    .header ul li {
+        padding-right: 5px;
+    }
+
+    .header a {
+        font-size: 11px;
+    }
+
+    .navbar ul li a:hover {
+        padding: 0px;
+    }
+
+    .aside1 img {
+        width: 300px;
+        margin-top: -100px;
+        margin-left: -80px;
+        float: left;
+    }
+
+    .judul {
+        font-size: 45px;
+        color: #816FA8;
+        margin-left: 50px;
+        font-weight: bold;
+    }
+
+    .aside1 hr {
+        width: 300px;
+        margin-left: 50px;
+    }
+
+    .sekilas {
+        font-size: 15px;
+        margin-left: 50px;
+    }
+
+    .button {
+        margin-left: 50px;
+    }
+
+    .fitur p {
+        margin-top: 100px;
+    }
+
+    .fitur1 img {
+        width: 100px;
+        margin-left: 150px;
+        margin-top: 40px;
+    }
+
+    .fitur1 p {
+        margin-top: 10px;
+        margin-left: 88px;
+    }
+
+    .fitur2 img {
+        width: 100px;
+        margin-left: 150px;
+        margin-top: 70px;
+        margin-right: 0px;
+        float: left;
+    }
+
+    .fitur2 p {
+        float: left;
+        margin-top: 20px;
+        margin-left: 0px;
+        padding: 0px 50px;
+    }
+
+    .fitur3 img {
+        width: 100px;
+        margin-left: 150px;
+        margin-top: 54px;
+    }
+
+    .fitur3 p {
+        margin-top: 20px;
+        margin-left: 140px;
+    }
+
+    .fitur4 img {
+        width: 100px;
+        margin-left: 140px;
+        margin-top: 57px;
+        margin-right: 0px;
+        float: left;
+    }
+
+    .fitur4 p {
+        float: left;
+        margin-top: 28px;
+        margin-left: 80px;
+    }
+
+    .card1 img {
+        width: 200px;
+        height: 220px;
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+
+    .card2 img {
+        width: 200px;
+        height: 220px;
+        margin-top: 70px;
+        margin-left: 100px;
+        margin-right: 0px;
+    }
+
+    .card3 img {
+        width: 200px;
+        height: 220px;
+        margin-top: 70px;
+        margin-left: 100px;
+    }
+
+    .card4 img {
+        width: 200px;
+        height: 220px;
+        margin-top: 360px;
+        margin-left: -200px;
+    }
+
+    .card5 img {
+        width: 200px;
+        height: 220px;
+        margin-top: 640px;
+        margin-left: -200px;
+        margin-right: 0px;
+    }
+
+    .card6 img {
+        width: 200px;
+        height: 220px;
+        margin-top: 940px;
+        margin-left: -200px;
+    }
+
+    .about img {
+        width: 100px;
+        margin-top: 940px;
+        margin-left: 150px;
+    }
+
+    .about hr {
+        width: 131px;
+    }
+
+    .about p {
+        text-align: center;
+        padding: 10px 20px;
+    }
+
+    .contact {
+        background-color: #2C2E5C;
+        height: 600px;
+        margin-top: -25px;
+    }
+
+    .ket {
+        margin-left: 10px;
+    }
+
+    .profile {
+        border-bottom: 2px solid white;
+        border-right: 0px;
+        margin-left: 50px;
+        margin-top: 30px;
+        width: 300px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .text p {
+        font-size: 18px;
+        padding: 50px;
+        text-align: justify;
+    }
+
+    footer {
+        text-align: center;
+        font-family: 'century gothic', sans-serif;
+        font-weight: bold;
+    }
+
+}
+
+/* tablet */
+@media only screen and (min-width: 768px) and (max-width:769px) {
+    .header img {
+        width: 170px;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+
+    .nav {
+        margin-left: 60px;
+        margin-top: 14px;
+    }
+
+    .header ul li {
+        padding-right: 30px;
+    }
+
+    .header a {
+        font-size: 15px;
+    }
+
+    .navbar ul li a:hover {
+        padding: 10px;
+    }
+
+    .aside1 img {
+        margin-top: -80px;
+    }
+
+    .fitur p {
+        margin-top: 70px;
+    }
+
+    .fitur1 img {
+        width: 130px;
+        margin-top: 60px;
+    }
+
+    .fitur1 p {
+        margin-top: 100px;
+        margin-left: 40px;
+    }
+
+    .fitur2 img {
+        width: 130px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 200px;
+    }
+
+    .fitur2 p {
+        margin-top: 80px;
+    }
+
+    .fitur3 img {
+        width: 130px;
+        margin-left: 90px;
+        margin-top: 70px;
+    }
+
+    .fitur3 p {
+        margin-top: 120px;
+        margin-left: 42px;
+    }
+
+    .fitur4 img {
+        width: 130px;
+        margin-left: 30px;
+        margin-top: 180px;
+        margin-right: -150px;
+    }
+
+    .fitur4 p {
+        margin-top: 80px;
+    }
+
+    .card1 img {
+        margin-top: 170px;
+        border-radius: 20px;
+        margin-left: 75px;
+    }
+
+    .card2 img {
+        margin-top: 130px;
+    }
+
+    .card3 img {
+        margin-top: 95px;
+        border-radius: 20px;
+        margin-left: 45px;
+    }
+
+    .card4 img {
+        margin-top: -320px;
+        border-radius: 20px;
+        margin-left: -180px;
+    }
+
+    .card5 img {
+        margin-left: -180px;
+        margin-right: 0px;
+    }
+
+    .card6 img {
+        border-radius: 20px;
+        margin-left: 45px;
+    }
+
+    .about img {
+        margin-left: 300px;
+    }
+
+    .about hr {
+        width: 320px;
+        align-items: center;
+    }
+
+    .about p {
+        padding: 10px 100px;
+    }
+
+    .contact {
+        height: 400px;
+    }
+
+    .profile img {
+        width: 100px;
+
+    }
+
+    .ket {
+        margin-left: 30px;
+    }
+
+    .profile {
+        margin-left: 30px;
+        margin-top: 30px;
+        width: 450px;
+        margin-right: 7px;
+    }
+
+    .ket h3 {
+        font-size: 22px;
+    }
+
+    .text p {
+        font-size: 15px;
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+}
+
+@media only screen and (min-width: 799px) and (max-width: 819px) {
+    .card2 img {
+        margin-top: 130px;
+    }
+
+    .header img {
+        width: 170px;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+
+    .nav {
+        margin-left: 60px;
+        margin-top: 14px;
+    }
+
+    .header ul li {
+        padding-right: 30px;
+    }
+
+    .header a {
+        font-size: 15px;
+    }
+
+    .navbar ul li a:hover {
+        padding: 10px;
+    }
+
+    .aside1 img {
+        margin-top: -80px;
+    }
+
+    .fitur p {
+        margin-top: 70px;
+    }
+
+    .fitur1 img {
+        width: 130px;
+        margin-top: 60px;
+    }
+
+    .fitur1 p {
+        margin-top: 100px;
+        margin-left: 40px;
+    }
+
+    .fitur2 img {
+        width: 130px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 200px;
+    }
+
+    .fitur2 p {
+        margin-top: 80px;
+    }
+
+    .fitur3 img {
+        width: 130px;
+        margin-left: 90px;
+        margin-top: 70px;
+    }
+
+    .fitur3 p {
+        margin-top: 120px;
+        margin-left: 42px;
+    }
+
+    .fitur4 img {
+        width: 130px;
+        margin-left: 30px;
+        margin-top: 180px;
+        margin-right: -150px;
+    }
+
+    .fitur4 p {
+        margin-top: 80px;
+    }
+
+    .card1 img {
+        margin-top: 170px;
+        border-radius: 20px;
+        margin-left: 75px;
+    }
+
+    .card3 img {
+        margin-top: 95px;
+        border-radius: 20px;
+        margin-left: 45px;
+    }
+
+    .card4 img {
+        margin-top: -320px;
+        border-radius: 20px;
+        margin-left: -180px;
+    }
+
+    .card5 img {
+        margin-left: -180px;
+        margin-right: 0px;
+    }
+
+    .card6 img {
+        border-radius: 20px;
+        margin-left: 45px;
+    }
+
+    .about img {
+        margin-left: 300px;
+    }
+
+    .about hr {
+        width: 320px;
+        align-items: center;
+    }
+
+    .about p {
+        padding: 10px 100px;
+    }
+
+    .contact {
+        height: 400px;
+    }
+
+    .profile img {
+        width: 100px;
+
+    }
+
+    .ket {
+        margin-left: 30px;
+    }
+
+    .profile {
+        margin-left: 30px;
+        margin-top: 30px;
+        width: 450px;
+        margin-right: 7px;
+    }
+
+    .ket h3 {
+        font-size: 22px;
+    }
+
+    .text p {
+        font-size: 15px;
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+}
+
+@media only screen and (min-width: 820px) and (max-width: 821px) {
+    .card2 img {
+        margin-top: 55px;
+    }
+
+    .header img {
+        width: 170px;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+
+    .nav {
+        margin-left: 60px;
+        margin-top: 14px;
+    }
+
+    .header ul li {
+        padding-right: 30px;
+    }
+
+    .header a {
+        font-size: 15px;
+    }
+
+    .navbar ul li a:hover {
+        padding: 10px;
+    }
+
+    .aside1 img {
+        margin-top: -80px;
+    }
+
+    .fitur p {
+        margin-top: 70px;
+    }
+
+    .fitur1 img {
+        width: 130px;
+        margin-top: 60px;
+    }
+
+    .fitur1 p {
+        margin-top: 100px;
+        margin-left: 40px;
+    }
+
+    .fitur2 img {
+        width: 130px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 200px;
+    }
+
+    .fitur2 p {
+        margin-top: 80px;
+    }
+
+    .fitur3 img {
+        width: 130px;
+        margin-left: 90px;
+        margin-top: 70px;
+    }
+
+    .fitur3 p {
+        margin-top: 120px;
+        margin-left: 42px;
+    }
+
+    .fitur4 img {
+        width: 130px;
+        margin-left: 30px;
+        margin-top: 180px;
+        margin-right: -150px;
+    }
+
+    .fitur4 p {
+        margin-top: 80px;
+    }
+
+    .card1 img {
+        margin-top: 170px;
+        border-radius: 20px;
+        margin-left: 75px;
+    }
+
+    .card3 img {
+        margin-top: 95px;
+        border-radius: 20px;
+        margin-left: 45px;
+    }
+
+    .card4 img {
+        margin-top: -320px;
+        border-radius: 20px;
+        margin-left: -180px;
+    }
+
+    .card5 img {
+        margin-left: -180px;
+        margin-right: 0px;
+    }
+
+    .card6 img {
+        border-radius: 20px;
+        margin-left: 45px;
+    }
+
+    .about img {
+        margin-left: 300px;
+    }
+
+    .about hr {
+        width: 320px;
+        align-items: center;
+    }
+
+    .about p {
+        padding: 10px 100px;
+    }
+
+    .contact {
+        height: 400px;
+    }
+
+    .profile img {
+        width: 100px;
+
+    }
+
+    .ket {
+        margin-left: 30px;
+    }
+
+    .profile {
+        margin-left: 30px;
+        margin-top: 30px;
+        width: 450px;
+        margin-right: 7px;
+    }
+
+    .ket h3 {
+        font-size: 22px;
+    }
+
+    .text p {
+        font-size: 15px;
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+}
+
+@media only screen and (min-width: 834px) and (max-width: 835px) {
+    .fitur4 p {
+        margin-top: 240px;
+    }
+
+    .card1 img {
+        margin-top: 250px;
+        border-radius: 20px;
+        margin-left: -290px;
+    }
+
+    .card2 img {
+        margin-top: -320px;
+        margin-left: 450px
+    }
+
+    .card3 img {
+        margin-top: 95px;
+        border-radius: 20px;
+        margin-left: 90px;
+    }
+
+    .card4 img {
+        margin-top: 95px;
+        border-radius: 20px;
+        margin-left: 60px;
+    }
+
+    .card5 img {
+        margin-left: -170px;
+        margin-right: 0px;
+    }
+
+    .card6 img {
+        border-radius: 20px;
+        margin-left: 60px;
+    }
+
+    .header img {
+        width: 170px;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+
+    .nav {
+        margin-left: 60px;
+        margin-top: 14px;
+    }
+
+    .header ul li {
+        padding-right: 30px;
+    }
+
+    .header a {
+        font-size: 15px;
+    }
+
+    .navbar ul li a:hover {
+        padding: 10px;
+    }
+
+    .aside1 img {
+        margin-top: -80px;
+    }
+
+    .fitur p {
+        margin-top: 70px;
+    }
+
+    .fitur1 img {
+        width: 130px;
+        margin-top: 60px;
+    }
+
+    .fitur1 p {
+        margin-top: 100px;
+        margin-left: 40px;
+    }
+
+    .fitur2 img {
+        width: 130px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 200px;
+    }
+
+    .fitur2 p {
+        margin-top: 80px;
+    }
+
+    .fitur3 img {
+        width: 130px;
+        margin-left: 90px;
+        margin-top: 70px;
+    }
+
+    .fitur3 p {
+        margin-top: 120px;
+        margin-left: 42px;
+    }
+
+    .fitur4 img {
+        width: 130px;
+        margin-left: 30px;
+        margin-top: 180px;
+        margin-right: -150px;
+    }
+
+    .about img {
+        margin-left: 300px;
+    }
+
+    .about hr {
+        width: 320px;
+        align-items: center;
+    }
+
+    .about p {
+        padding: 10px 100px;
+    }
+
+    .contact {
+        height: 400px;
+    }
+
+    .profile img {
+        width: 100px;
+
+    }
+
+    .ket {
+        margin-left: 30px;
+    }
+
+    .profile {
+        margin-left: 30px;
+        margin-top: 30px;
+        width: 450px;
+        margin-right: 7px;
+    }
+
+    .ket h3 {
+        font-size: 22px;
+    }
+
+    .text p {
+        font-size: 15px;
+        padding: 20px;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (min-width:1270px) and (max-width:1281px) {
+    .header img {
+        width: 200px;
+        margin-left: 95px;
+    }
+
+    .nav {
+        margin-left: 300px;
+    }
+
+    .header ul li {
+        padding-right: 50px;
+    }
+
+    .fitur p {
+        margin-top: 200px;
+    }
+
+    .header a {
+        font-size: 20px;
+    }
+
+    .fitur1 img {
+        width: 160px;
+        margin-left: 95px;
+        margin-top: 106px;
+        float: left;
+    }
+
+    .fitur1 p {
+        font-family: 'Century Gothic', sans-serif;
+        color: #816FA8;
+        float: left;
+        margin-top: 160px;
+        margin-left: 82px;
+        font-weight: bold;
+    }
+
+    .fitur2 img {
+        width: 160px;
+        margin-left: 90px;
+        margin-top: 267px;
+        margin-right: 162px;
+        float: right;
+
+    }
+
+    .fitur2 p {
+        font-family: 'Century Gothic', sans-serif;
+        color: #816FA8;
+        float: right;
+        margin-top: 147px;
+        margin-left: 82px;
+        font-weight: bold;
+    }
+
+    .fitur3 img {
+        width: 160px;
+        margin-left: -155px;
+        margin-top: 254px;
+        float: left;
+    }
+
+    .fitur3 p {
+        font-family: 'Century Gothic', sans-serif;
+        color: #816FA8;
+        float: left;
+        margin-top: 150px;
+        margin-left: 82px;
+        font-weight: bold;
+    }
+
+    .fitur4 img {
+        width: 160px;
+        margin-left: 95px;
+        margin-top: 237px;
+        margin-right: -225px;
+        float: right;
+    }
+
+    .fitur4 p {
+        font-family: 'Century Gothic', sans-serif;
+        color: #816FA8;
+        float: right;
+        margin-top: 308px;
+        font-weight: bold;
+    }
+
+    .card1 img {
+        margin-top: 300px;
+        margin-left: 140px;
+    }
+
+    .card2 img {
+        width: 300px;
+        height: 320px;
+        float: left;
+        margin-top: 190px;
+        border-radius: 20px;
+        margin-left: 70px;
+        margin-right: 0px;
+    }
+
+    .card3 img {
+        width: 300px;
+        height: 320px;
+        float: left;
+        margin-top: 140px;
+        border-radius: 20px;
+        margin-left: 45px;
+    }
+
+    .card4 img {
+        width: 300px;
+        height: 320px;
+        float: left;
+        margin-top: 100px;
+        border-radius: 20px;
+        margin-left: -115px;
+    }
+
+    .card5 img {
+        width: 300px;
+        height: 320px;
+        float: left;
+        margin-top: 100px;
+        border-radius: 20px;
+        margin-left: 70px;
+        margin-right: 40px;
+    }
+
+    .card6 img {
+        width: 300px;
+        height: 320px;
+        float: left;
+        margin-top: 100px;
+        border-radius: 20px;
+    }
+
+    .card {
+        margin-left: 260px;
+    }
+
+    .about img {
+        width: 200px;
+        margin-top: 110px;
+        margin-left: 530px;
+    }
+
+    .contact {
+        background-color: #2C2E5C;
+        height: 500px;
+        margin-top: -25px;
+    }
+
+    .profile img {
+        width: 100px;
+        border-radius: 180px;
+    }
+
+    .gambar {
+        float: left;
+    }
+
+    .ket {
+        float: left;
+        margin-left: 60px;
+    }
+
+    .profile {
+        float: left;
+        border-right: 2px solid white;
+        margin-left: 143px;
+        margin-top: 100px;
+        width: 550px;
+        margin-right: 40px;
+    }
+
+    .isiconta p {
+        color: white;
+        text-align: center;
+        letter-spacing: 10px;
+        padding-top: 57px;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+
+    .profile p {
+        letter-spacing: 0px;
+    }
+
+
+    .svgig {
+        float: left;
+    }
+
+    .nama {
+        float: left;
+    }
+
+    .ket h3 {
+        font-family: 'century gothic', sans-serif;
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .ket p {
+        color: #EEF161;
+        font-weight: bold;
+        font-family: 'century gothic', sans-serif;
+    }
+
+    .nama p {
+        margin-top: -45px;
+        margin-left: 10px;
+        color: white;
+    }
+
+    .status {
+        margin-top: -70px;
+
+    }
+
+    .text p {
+        letter-spacing: 0px;
+        font-family: 'century gothic', sans-serif;
+        font-size: 20px;
+        padding: 100px;
+        text-align: justify;
+    }
+
+    footer {
+        text-align: center;
+        font-family: 'century gothic', sans-serif;
+        font-weight: bold;
+    }
+}
